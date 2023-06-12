@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+canvas {
+    position: absolute;
+    right: 10; top: 30;
+}
+
+::selection {
+    background-color: grey;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Comfortaa', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger img{
+    width: 40px;
+    margin-left: 10px; margin-top: 5px;
+    cursor: pointer;
+}
+
+.navigation-bar {
+    position: absolute;
+    top: 0; left: 0;
+    height: fit-content;
+    padding-bottom: 20px;
+    width: 20%;
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: none;
+}
+
+.nav-links {
+    margin-top: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 30px;
+}
+
+.close-img {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sectiona {
+    height: 100vh;
+}
+
+.hero-section {
+    width: 50%; height: fit-content;
+    padding: 10px auto auto 10px; margin-left: 30px;
+    margin-top: 60px;
+}
+
+.hero-section img {
+    width: 100px; margin-bottom: -40px;
+}
+
+.main-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.alpha-text {
+    margin-top: -35px;
+    font-size: 1.3rem;
+    margin-top: -40px;
+}
+
+.beta-text {
+    margin-top: -13px;
+    font-size: .8rem;
+    color: gray;
+}
+
+.creator-desc {
+    width: 20%; height: fit-content;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px; padding-left: 10px;
+}
+
+.git, .tweet {
+    color: black;
+    font-size: .8rem;
+
+}
+
+.sectionb {
+    height: fit-content;
+    font-size: .5rem;
+    color: grey;
+    float: right;
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1193px) {
+    .creator-desc {
+        width: 230px;
+    }
+}
+
+@media (max-width: 1005px) {
+    .navigation-bar {
+        width: 230px;
+    }
+}
+
+@media (max-width: 636px) {
+    .hero-section img {
+        width: 80px;
+        margin-bottom: -25px;
+    }
+
+    .hero-section {
+        width: 250px;
+    }
+
+    .main-text {
+        font-size: 2rem;
+        margin-bottom: 45px;
+    }
+
+    .alpha-text {
+        font-size: .9rem;
+        margin-bottom: 15px;
+    }
+
+    .beta-text {
+        font-size: .5rem;
+    }
+
+    .git, .tweet {
+        font-size: .5rem;
+    }
+
+    .creator-desc {
+        width: 155px;
+    }
+
+    .creator-desc img {
+        width: 20px;
+    }
+
+    canvas {
+        display: none;
+    }
+
+}
