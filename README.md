@@ -1,3 +1,3 @@
 # Description 
 
-In this ambitious project, I'm recreating NASA's website using the incredible power of Three.js. Prepare to be captivated as I bring the wonders of space to life with stunning visuals, interactive elements, and an immersive user experience. From exploring missions like Artemis I to showcasing the latest discoveries, this project aims to provide an awe-inspiring journey into the cosmos. Stay tuned for a website that will transport you to the stars!
+In this ambitious project, I'm recreating NASA's website's landing page using the incredible power of Three.js. Prepare to be captivated as I bring the wonders of space to life with stunning visuals, interactive elements, and an immersive user experience. Stay tuned for a website that will transport you to the stars!
